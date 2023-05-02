@@ -1,0 +1,37 @@
+body {background-color: rgb(63, 206, 214);}
+p {color:rgb(216, 11, 231); font-size:150%}
+ul.placesInVA {
+    font-size:115%;
+    color:rgb(237, 15, 174);
+    font-family:fantasy
+}
+a {font-size:120%}
+img {width:450px}
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #cfd8dc; /* 4 */
+}
+nav h2 {
+    margin: 0px 0px;
+}
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    margin: 0px 0px;
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+}
+
+table, th, td {
+    border: 2px solid;
+}
+
+ul.FunFacts {
+    font-size:115%;
+    color:rgb(228, 67, 67);
+    font-family:fantasy
+}
