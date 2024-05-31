@@ -1,0 +1,107 @@
+<html>
+<head> 
+  
+  <title>Algorithms to Live By_Blog_5/30/24</title>
+  
+</head>
+<body style="background-color:rgb(230, 176, 211);"> 
+<!-- INSTRUCTIONS:  -->
+<!--EDIT THIS TEMPLATE TO CREATE YOUR OWN RESUME  -->
+
+<!-- EDIT THIS SECTION TO ADD YOUR NAME -->
+<!-- AND CONTACT INFORMATION -->
+<h1>Algorithms to Live By</h1>
+<h2>By: Brian Christian and Tom Griffiths  </h2>
+
+
+<h3  style="font-size:100%;font-family:courier"> Blog Written by Seble Bedassa </h3>
+
+<hr>
+
+<!-- Edit this section to include your relevant skills -->
+<p>The book discusses the different ways that humans can optimize fulfillment and decision making by using algorithms (like mathematics, statistics, and computer science techniques).</p>
+
+
+<h2>Chapter 1:</h2>
+<P> The first chapter talks about the <b>Look-Then-Leap</b> rule,  this rule is described as taking a specific amount of time to look/gather data, and then after that period you leap and make your decision.
+   An example the book used was when you're hiring a secretary. When you're hiring someone for a job you can either hire the first person you see or not hire anyone, waiting to find the best one.
+  However, this is not the best way to hire the best applicant for the job. The solution is to use the 37% rule, this means looking at the first 37% of applicants (“Look”), then hiring anyone better than all those you've seen (“Leap”).
+   Using the strategy gives you a 37% chance of hiring the best applicant. 
+
+<P>What if you're trying to make a decision based on having full information, in this case, we would use the <b>Threshold Rule</b>. 
+  For example, if you're trying to hire a secretary and you also have test scores to use to your advantage, then you can hire an applicant if they are above a certain percentile. 
+  If your third applicant is above the 69% percentile, then you should hire them (the fourth applicant is 78th percentile, etc).
+</P>
+
+<P>Using these rules applies for finding a partner, a parking spot, selling a house, looking for a house, etc. 
+</P>
+
+</hr>
+
+<!-- Edit this section to list some of your experience -->
+
+<h2>Chapter 2:</h2>
+<P> This chapter explores the dilemma between the explore/exploit problem. Explore refers to the Gathering of information, while exploit refers to the usage of the information you have. 
+  A common dilemma explored in the book is whether you should go to a new restaurant or stick to the restaurant you already know and love. The book explores multiple solutions. 
+  If you have a long interval of time, then you should explore, however, if you have a short interval of time then you should stick to the one you know. Another solution includes the <b>Win-Stay, Lose-Shift </b> algorithm. 
+  This means if you are winning from a specific spot (Win), keep going there (Stay), however, if you are losing (Lose), switch to a new location (Shift).
+
+<P><b>The Gittins index</b> justifies preferring the unknown (exploring). “The unknown has a chance of being better, even if we actually expect it to be no different.” 
+  However, this solution is time sensitive and we humans are not likely to use it.
+</P>
+
+<P>The <b>Upper Confidence Bound</b> algorithm is easier to compute compared to the Gittins index, the concept uses minimal regret to determine a decision.
+   In general, it shows that optimism increases exploration into decision-making, and in the long run, optimism is the best prevention for regret.</P>
+
+<P>The last thing talked about in this chapter is age. 
+  Humans have a longer period of dependence, during childhood, we have time to explore possibilities without worrying about payoffs. 
+  Furthermore, it discusses that as we approach the end of our lives we are more likely to exploit rather than explore. 
+  However, if we are still in our young adulthood, we are more likely to explore. 
+</P>
+</hr>
+
+<h2>Chapter 3:</h2>
+<P>This chapter compares sorting versus searching (no order but mess). 
+  In our day-to-day lives, we are confronted with ordered tasks/lists, bills, books, and socks. 
+  To measure the relationship between the size of the problem and the time when determining the most efficient way to sort/order, 
+  computer scientists use the <b>Big-O</b> notation. The top three are constant time, linear time, and quadratic time. 
+  <b>The Bubble Sort and Insertion Sort</b> methods are similar in duration and are quantified as quadratic time, which is not the most efficient. 
+  The <b>Mergesort </b> method is between the linear and quadratic time and seems to be the most efficient. 
+  This method includes separating a large list into smaller sorted lists and then combining the smaller piles into one large sorted pile. 
+  <b>The Bucket Sort </b>algorithm utilizes “buckets'', defined as “a chunk of unsorted data” in computer science, to sort a larger pile into smaller ones. 
+  This method, if “the number of buckets is relatively small compared to the number of items' ', will round to a linear time (most efficient). 
+  
+<P>Through all the methods of sorting efficiently, maybe none of them are optimal. 
+  As discussed in the book, for example, sorting your bookshelf will take more time/energy than looking through an unordered/unorganized shelf.
+  In conclusion, sometimes "mess" is the optimal choice.</P>
+
+<P><b>Comparison Counting Sort </b>Is the single best algorithm in the face of noise, and statistical fluke. 
+  This means that, compared to the Mergesort algorithm, early error in sorting will not greatly affect the outcome of the final sort. 
+  Although it is a quadratic-time algorithm (not efficient),  it is fault-tolerant. </P>
+
+<h2>Chapter 4:</h2>
+<P> This chapter discusses the phenomenon of <b>Memory Hierarchy</b> and <b>Caching</b>. 
+  Memory Hierarchy refers to “a hierarchy of memories, each of which has greater capacity than the preceding but which is less quickly accessible” to organize different types of memory. 
+  Caching refers to the idea of keeping pieces of information that you refer to frequently close by, this is the optimal way of accessing memory/data. 
+  Both concepts are used in the computer science world for optimal computer storage and efficient memory retrieval time. The problem is what happens when a cache fills up. 
+  The optimal way to replace and make room for new information is the <b>Least Recently Used (LRU)</b> method. This method replaces the item that has gone the longest untouched.  
+
+<P>This LRU method is optimal for human decision-making as well. Organization based on LRU is a more efficient, even optimal, method compared to grouping “like with like”. 
+  For example, if you have a large file stack and you pull out a file, putting that file back at the top, in turn, self-organizes the messy stack. 
+  Furthermore, in the computer world, companies utilize geography by having computers close to specific locations where they are typically used. 
+  Similarly, humans can also exploit geography by keeping caches close to places where they are typically used.</P>
+
+<P>Another point the chapter talks about is that memory is about organization rather than storage. 
+  <b>Ebbinghaus Forgetting Curve</b> shows as time goes on the percent chance of something being remembered decreases. 
+  However, this pattern is not about having finite memory storage but about having finite time. 
+  This pattern is also seen around us, meaning that “reality itself has a statistical structure that mimics the Ebbinghaus Curve”
+  and the human brain is “optimally tuned to the world around it”.
+</P>
+
+<P>Finally, this chapter talks about age. Contrary to popular beliefs, “lags and retrieval error may not be about the search process slowing or deteriorating” but the amount of information we have to navigate is getting larger, and navigating it takes longer. 
+  In conclusion, when we begin to experience the effects of aging on cognition, it should be a reminder of how much we know and how well we've organized it.</P>
+
+</hr>
+
+</body>
+</html>
